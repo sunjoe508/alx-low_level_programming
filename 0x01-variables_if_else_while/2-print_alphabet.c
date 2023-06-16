@@ -9,7 +9,7 @@ int main(void)
 
 	c = 'a';
 	while
-		(c < 'a' - 'z') {
+		(c <- 'z') {
 			putchar(c);
 			c++;
 		}
