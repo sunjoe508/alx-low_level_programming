@@ -14,7 +14,7 @@ for (m = '0'; m <= '9'; m++)
 	{
 		if (!(n == '9' && m == '8'))
 		{
-			putchar(' ,');
+			putchar(' , ');
 			putchar(' ');
 		}
 	}
