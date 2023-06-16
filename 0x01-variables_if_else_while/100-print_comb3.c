@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
-*main - the program starts
-*Retun: returns 0
-*/
+ * main - the begining of the program
+ * Return: returns 0 when success
+ */
 int main(void)
 {
 int n;
