@@ -17,6 +17,7 @@ while (i <= '9')
 	}
 	++i;
 }
-putchar('\n')
+putchar('\n');
+
 return (0);
 }
