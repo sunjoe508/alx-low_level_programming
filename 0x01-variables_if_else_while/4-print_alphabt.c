@@ -9,12 +9,12 @@ int main(void)
 int lowerCase = 'a';
 while (lowerCase <= 'z')
 {
-if (LowerCase == 'e' || lowerCase == 'q')
+if (lowerCase == 'e' || lowerCase == 'q')
 {
 lowerCase += 1;
 }
 else
-{putchar(lowrCase);
+{putchar(lowerCase);
 lowerCase += 1;
 }
 }
