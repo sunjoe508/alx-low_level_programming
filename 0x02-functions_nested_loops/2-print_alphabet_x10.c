@@ -3,7 +3,7 @@
 * print_alphabet_x10 - makes alphabet
 * Return: void
 */
- void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 char ch;
 int i;
