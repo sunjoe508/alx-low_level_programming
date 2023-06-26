@@ -1,17 +1,18 @@
 #include<stdio.h>
-
+#include "main.h"
 /**
- * _starlen - the beginning of a program that prints the length of a string
- * @s: value to use
- * Return: void
- */
+*_strlen - returns the length of a string..
+*@s: value
+*Return: not.
+*/
 int _strlen(char *s)
 {
-int len s = 0;
-while (*s != '\0')
-{
-s++;
-len++;
-}
-return (len);
+	int len = 0;
+
+	while (*s != '\0')
+	{
+		s++;
+		len++;
+	}
+	return (len);
 }
