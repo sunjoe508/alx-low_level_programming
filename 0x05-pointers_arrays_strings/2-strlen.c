@@ -1,4 +1,4 @@
-#include<stio.h>
+#include<stdio.h>
 
 /**
  * _starlen - the beginning of a program that prints the length of a string
