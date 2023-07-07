@@ -1,1 +1,1 @@
-iproject 0x09-static Libraries 
+0x09-static libraries
