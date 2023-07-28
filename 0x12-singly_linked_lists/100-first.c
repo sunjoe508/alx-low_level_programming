@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * bmain - function is to be executed 
+ * bmain - function is to be executed
  * before the main
  * Return: returns void
  */
