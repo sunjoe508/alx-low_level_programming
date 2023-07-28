@@ -11,11 +11,11 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *sew;
 	size_t mchr;
 
-	new = malloc(sizeof(list_t));
-	if (new == NULL)
+	sew = malloc(sizeof(list_t));
+	if (sew == NULL)
 		return (NULL);
 
-	new->str = strdup(str);
+	sew->str = strdup(str);
 
 	for (mchr = 0; str[mchr]; mchr++)
 		;
