@@ -2,7 +2,7 @@
 /**
  * list_len - returns then number of element
  * @h: linked list
- * Return:  tthe number of elements 
+ * Return: tthe number of elements
  */
 
 size_t list_len(const list_t *h)
