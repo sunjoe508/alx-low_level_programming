@@ -9,6 +9,7 @@
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *novel_node;
+	listint_t *temp = *head
 
 	novel_node = malloc(sizeof(listint_t));
 	if (novel_node == NULL)
