@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * clear_bit - sets the value of a bit to 0
- * @n: pointer to number to be changed
- * @index: location position to change
- * Return: 1 if sucessful
+ * @n: pointer to number to change
+ * @index: position to change
+ * Return: 1 if it work
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int j;
-	unsigned int catch;
+	unsigned int grip;
 
 	if (index > 64)
 		return (-1);
-	catch = index;
-	for (i = 1; catch > 0; i *= 2, catch--)
+	grip = index;
+	for (i = 1; grip > 0; i *= 2, grip--)
 		;
 
 	if ((*n >> index) & 1)
