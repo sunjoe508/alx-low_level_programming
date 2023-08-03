@@ -1,7 +1,8 @@
 #include "main.h"
- /** flip_bits - flips bits converingt one number to another number
+/**
+* flip_bits - flips bits converingt one number to another number
  * @n: first number
- * @m: second number 
+ * @m: second number
  * Return: the tally
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
