@@ -4,6 +4,9 @@
  * @file:  name of the file buffer
  * Return: linker to new allocation of the buffer
  */
+char *create_buffer(char *file);
+void close_file(int fd);
+
 char *create_buffer(char *file)
 {
 	char *buffer;
