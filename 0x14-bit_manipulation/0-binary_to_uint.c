@@ -8,7 +8,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int sum, potential; 
+	unsigned int sum, potential;
 	int lin;
 
 	if (b == NULL)
