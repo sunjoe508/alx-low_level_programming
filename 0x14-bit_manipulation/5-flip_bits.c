@@ -13,7 +13,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	int check;
 
 	deff = n ^ m;
-	cheke = 0;
+	chek = 0;
 
 	while (deff)
 	{
