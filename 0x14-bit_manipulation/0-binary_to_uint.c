@@ -1,26 +1,30 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * binary_to_unit - converts a binary to unsingned integer
- * @b: used to access character
- * Return: returns 0 when unsuccessful
- * outcome when the process is archived
+ * binary_to_uint - convert a binary into  unsigned int
+ * @b: string of type char
+ * Return: converted number and  0 if there is an unconvertable char
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
-	if (B == NULL)
+	unsigned int sum, potential; 
+	int lin;
+
+	if (b == NULL)
 		return (0);
 
-	unsigned int outcome = 0;
-
-	while (*b)
+	for (lin = 0; b[lin]; lin++)
 	{
-		if (*b != '0' && *b != '1')
-		{
+		if (b[lin] != '0' && b[lin] != '1')
 			return (0);
-		}
-		outcome = outcome * 2 + (*b - '0');
-		b++;
 	}
-	return (outcome);
+
+	for (potential = 1, sum = 0, lin--; lin >= 0; lin--, potential *= 2)
+	{
+		if (b[lin] == '1')
+			sum += potential;
+	}
+
+	return (sum);
 }
