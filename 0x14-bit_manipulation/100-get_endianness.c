@@ -7,13 +7,13 @@
 */
 int get_endianness(void)
 {
-    int count = 1;
-    char *ptr = (char *)&count;
+int count = 1;
+char *ptr = (char *)&count;
 
-    if (*ptr == 1)
-    return (1);
+if (*ptr == 1)
+return (1);
 
-    else
-	    return (0);
+else
+return (0);
 
 }
